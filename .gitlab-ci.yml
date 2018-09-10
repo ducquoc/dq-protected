@@ -1,0 +1,15 @@
+image: maven:3-jdk-8
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+  MAVEN_CLI_OPTS: "-Dmaven.javadoc.skip=true -Ddockerfile.skip "
+
+cache:
+  paths:
+    - .m2/repository/
+    - target/
+
+build:
+  stage: build
+  script:
+    - mvn $MAVEN_CLI_OPTS install -B -V -f cc-dq/execute-cc/pom.xml
