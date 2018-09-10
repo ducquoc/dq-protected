@@ -1,0 +1,16 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+target
+.settings
+.project
+.classpath
+#.jpr
+#.jws
+#.data
+#.ipr
+#.iml
+.iws
+.idea
+.svn
+.DS_Store
+Thumbs.db
+desktop.ini

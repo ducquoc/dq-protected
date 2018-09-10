@@ -1,0 +1,29 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# .gitignore ducquoc Java (Maven, Eclipse, IDEA, NetBeans, JDev, MTJ, BlueJ, VCS, OS, temp, ...)
+target/
+build/
+classes/
+.settings/
+.project
+.classpath
+.idea/
+*.iml
+*.ipr
+*.iws
+nbproject/
+nb-configuration.xml
+nbactions.xml
+.data/
+.adf/
+*.jpr
+*.jws
+.mtj.tmp/
+*.ctxt
+.svn/
+.DS_Store
+Thumbs.db
+desktop.ini
+hs_err_pid*
+*.log
+*.lock
+*.swp
