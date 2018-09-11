@@ -5,7 +5,7 @@ Coding challenges can be categorized into a few kinds:
 
   + Competitive Programming (Programming Contests): mostly algorithms & data structures (ADS/DSA).
   + Online Judge (gamification): mostly for online ranking/self-practice; for fun & reputation.
-  + Intervew/Recruitment: more oriented to job/software career, either employer tests or employee practicing.
+  + Interview/Recruitment: more oriented to job/software career, either employer tests or employee practicing.
 
 https://ducquoc.wordpress.com/2014/07/05/coding-online-run/
 

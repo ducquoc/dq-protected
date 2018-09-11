@@ -46,7 +46,7 @@ public class Solution {
 
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {//stupid copy & paste might not work outside HR
+    public static void main(String[] args) throws IOException {//silly copy & paste might not work outside HR
         //BufferedWriter bw = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));//compatible old HackerRank
 
