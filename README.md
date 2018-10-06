@@ -20,7 +20,7 @@ See [Markdown](https://ducquoc.wordpress.com/2012/06/16/markdown/) files (README
 
 * Bug report template: https://ducquoc.wordpress.com/2010/10/23/bug-report-template/
 * Enhancement request template: https://ducquoc.wordpress.com/2010/10/24/improvement-request-template/
-* Use the pull request feature, or email to the addresses below (Pro-Tip: [be nice](https://ducquoc.wordpress.com/2011/10/01/ss-collection/).
+* Use the pull request feature, or email to the addresses below (Pro-Tip: [be nice](https://ducquoc.wordpress.com/2011/10/01/ss-collection/) ).
 * License: see [LICENSE](./LICENSE) file - if exists - usually MIT License.
 
 ### Feedback and comments ###

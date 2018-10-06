@@ -6,6 +6,7 @@ classes/
 .settings/
 .project
 .classpath
+.springBeans
 .idea/
 *.iml
 *.ipr
@@ -13,6 +14,7 @@ classes/
 nbproject/
 nb-configuration.xml
 nbactions.xml
+.nb-gradle/
 .data/
 .adf/
 *.jpr

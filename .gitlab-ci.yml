@@ -1,4 +1,4 @@
-image: maven:3-jdk-8
+image: maven:3.5-jdk-8-alpine
 
 variables:
   MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
@@ -13,3 +13,5 @@ build:
   stage: build
   script:
     - mvn $MAVEN_CLI_OPTS install -B -V -f cc-dq/execute-cc/pom.xml
+
+
