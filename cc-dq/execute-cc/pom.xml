@@ -20,7 +20,29 @@
       <version>4.7</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.12</version>
+    </dependency>
   </dependencies>
+
+  <repositories>
+    <repository>
+      <url>http://jcenter.bintray.com/</url>
+      <id>jcenter</id>
+    </repository>
+    <repository>
+      <url>http://repository.sonatype.org/content/groups/public/</url>
+      <id>sonatype</id>
+    </repository>
+    <repository>
+      <url>http://repo.spring.io/libs-milestone/</url>
+      <id>spring-libs-milestone</id>
+    </repository>
+  </repositories>
+<!-- https://mvnrepository.com/repos/central -->
+
 <!--
   <build>
     <plugins>
