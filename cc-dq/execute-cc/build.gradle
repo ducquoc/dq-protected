@@ -2,24 +2,26 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 group = 'vn.ducquoc.cc'
-version = '1.0-SNAPSHOT'
+version = '1.1-SNAPSHOT'
 
 description = """execute-cc"""
 
-sourceCompatibility = 1.5
-//sourceCompatibility = 1.8
-targetCompatibility = 1.5
-//targetCompatibility = 1.8
+//sourceCompatibility = 1.5
+sourceCompatibility = 1.8
+//targetCompatibility = 1.5
+targetCompatibility = 1.8
 
 
 repositories {
-        
-     maven { url "https://jcenter.bintray.com/" }
+
+    maven { url "https://packages.atlassian.com/maven-external/" }
+    maven { url "https://packages.atlassian.com/mvn/maven-atlassian-external/" }
      maven { url "https://repository.sonatype.org/content/groups/public/" }
      maven { url "https://repo.spring.io/libs-milestone/" }
      maven { url "https://repo.maven.apache.org/maven2" }
+    maven { url "https://jcenter.bintray.com/" }
 }
 dependencies {
-    compile group: 'org.projectlombok', name: 'lombok', version:'1.16.12'
-    testCompile group: 'junit', name: 'junit', version:'4.7'
+    compile group: 'org.projectlombok', name: 'lombok', version:'1.18.22'
+    testCompile group: 'junit', name: 'junit', version:'4.13.1'
 }

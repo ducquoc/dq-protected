@@ -4,33 +4,41 @@
   <groupId>vn.ducquoc.cc</groupId>
   <artifactId>execute-cc</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <name>execute-cc</name>
   <url>https://bitbucket.org/dqprotected/dq-protected/src/master/cc-dq/</url>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <java.version>1.8</java.version><!-- SpringBoot override -->
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.7</version>
+<!--      <version>4.7</version>-->
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.16.12</version>
+<!--      <version>1.16.12</version>-->
+<!--      <version>1.18.4</version>-->
+      <version>1.18.22</version>
     </dependency>
   </dependencies>
 
   <repositories>
     <repository>
-      <url>https://jcenter.bintray.com/</url>
-      <id>jcenter</id>
+      <url>https://packages.atlassian.com/maven-external/</url>
+      <id>atlassian-maven-external</id>
+    </repository>
+    <repository>
+      <url>https://packages.atlassian.com/mvn/maven-atlassian-external/</url>
+      <id>maven-atlassian-external</id>
     </repository>
     <repository>
       <url>https://repository.sonatype.org/content/groups/public/</url>
@@ -39,6 +47,10 @@
     <repository>
       <url>https://repo.spring.io/libs-milestone/</url>
       <id>spring-libs-milestone</id>
+    </repository>
+    <repository>
+      <url>https://jcenter.bintray.com/</url>
+      <id>jcenter</id>
     </repository>
   </repositories>
 <!-- https://mvnrepository.com/repos/central -->
