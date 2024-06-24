@@ -33,7 +33,7 @@ class LcP1Template {
         pl("[DEBUG] " + arrToString(obj) + (ex == null || ex.length == 0 ? "" : " Expected: " + arrToString(ex)));
     }
 
-    public static void pl(Object obj) { // info print line
+    public static void pl(Object obj) {
         System.out.println(obj);
     }
 
